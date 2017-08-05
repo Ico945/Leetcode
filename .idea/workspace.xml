@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4cce3d8-9eb9-4f8b-a5be-d09aaa41b39d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindAllDuplicatesinanArray/FindAllDuplicatesinanArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindAllNumbersDisappearedinanArray/FindAllNumbersDisappearedinanArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArrayNesting/ArrayNesting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArrayPartitionI/ArrayPartitionI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindAllDuplicatesinanArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FindAllDuplicatesinanArray/FindAllDuplicatesinanArray.java">
+      <file leaf-file-name="ArrayNesting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArrayNesting/ArrayNesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="266">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +66,8 @@
         <option value="$PROJECT_DIR$/src/Hello.java" />
         <option value="$PROJECT_DIR$/src/FindAllNumbersDisappearedinanArray/FindAllNumbersDisappearedinanArray.java" />
         <option value="$PROJECT_DIR$/src/FindAllDuplicatesinanArray/FindAllDuplicatesinanArray.java" />
+        <option value="$PROJECT_DIR$/src/ArrayPartitionI/ArrayPartitionI.java" />
+        <option value="$PROJECT_DIR$/src/ArrayNesting/ArrayNesting.java" />
       </list>
     </option>
   </component>
@@ -94,8 +96,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,17 +111,10 @@
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FindAllNumbersDisappearedinanArray" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +135,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindAllDuplicatesinanArray">
+  <component name="RunManager" selected="Application.ArrayNesting">
+    <configuration name="ArrayNesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArrayNesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArrayNesting.ArrayNesting" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+    </configuration>
+    <configuration name="ArrayPartitionI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArrayPartitionI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArrayPartitionI.ArrayPartitionI" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Leetcode" />
+      <envs />
+    </configuration>
     <configuration name="FindAllDuplicatesinanArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -178,25 +212,6 @@
       <module name="Leetcode" />
       <envs />
     </configuration>
-    <configuration name="MaximumProductofThreeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaximumProductofThreeNumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MaximumProductofThreeNumbers.MaximumProductofThreeNumbers" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-    </configuration>
     <configuration name="SearchinRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -205,25 +220,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="SearchinRotatedSortedArray.SearchinRotatedSortedArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-    </configuration>
-    <configuration name="TaskScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="TaskScheduler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="TaskScheduler.TaskScheduler" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -433,19 +429,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MaximumProductofThreeNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TaskScheduler" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SearchinRotatedSortedArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FindAllNumbersDisappearedinanArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FindAllDuplicatesinanArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SearchinRotatedSortedArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FindAllNumbersDisappearedinanArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FindAllDuplicatesinanArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayPartitionI" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayNesting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindAllDuplicatesinanArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FindAllNumbersDisappearedinanArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SearchinRotatedSortedArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TaskScheduler" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaximumProductofThreeNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayNesting" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayPartitionI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FindAllDuplicatesinanArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FindAllNumbersDisappearedinanArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SearchinRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +463,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -482,7 +477,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -516,11 +511,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/FindAllDuplicatesinanArray/FindAllDuplicatesinanArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchinRotatedSortedArray/SearchinRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,8 +709,8 @@
         <state relative-caret-position="38">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="35" />
           <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#109#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -718,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,15 +727,33 @@
         <state relative-caret-position="59">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPartitionI/ArrayPartitionI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindAllDuplicatesinanArray/FindAllDuplicatesinanArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="439">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayNesting/ArrayNesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
