@@ -23,7 +23,7 @@ public class TwoSumIVInputisaBST {
         six.right = new TreeNode(7);
         six.right.right = six.right.left = null;
         //System.out.println(p.val);
-        System.out.println(new TwoSumIVInputisaBST().findTarget(p,9));
+        System.out.println(new TwoSumIVInputisaBST().findTarget(p,28));
     }
     public boolean findTarget(TreeNode root, int k) {
         List<Integer> list = new ArrayList<>();
